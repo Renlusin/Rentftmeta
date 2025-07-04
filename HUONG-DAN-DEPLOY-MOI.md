@@ -23,7 +23,7 @@ Sau khi tạo repository, GitHub sẽ hiển thị các lệnh. Chạy các lệ
 
 ```bash
 # Thay YOUR_USERNAME bằng username GitHub thực của bạn
-git remote add origin https://github.com/YOUR_USERNAME/tft-meta-advisor-2025.git
+git remote add origin https://github.com/YOUR_USERNAME/rentftmeta.git
 git branch -M main
 git push -u origin main
 ```
@@ -56,8 +56,10 @@ Mở PowerShell và chạy từng lệnh:
 
 ```powershell
 cd "C:\Users\PhucVu\tft-meta-advisor-complete"
-git remote add origin https://github.com/YOUR_USERNAME/tft-meta-advisor-2025.git
+git remote add origin https://github.com/YOUR_USERNAME/rentftmeta.git
 git branch -M main
+git add .
+git commit -m "first deploy"
 git push -u origin main
 ```
 
