@@ -1,5 +1,6 @@
 import { useState } from "react";
-import { metaComps, TeamComp } from "./mockData";
+import { metaComps } from "./mockData";
+import type { TeamComp } from "./mockData";
 
 interface SearchResult extends TeamComp {
   name: string;
