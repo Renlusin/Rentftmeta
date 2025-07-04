@@ -58,8 +58,6 @@ Mở PowerShell và chạy từng lệnh:
 cd "C:\Users\PhucVu\tft-meta-advisor-complete"
 git remote add origin https://github.com/YOUR_USERNAME/rentftmeta.git
 git branch -M main
-git add .
-git commit -m "first deploy"
 git push -u origin main
 ```
 
